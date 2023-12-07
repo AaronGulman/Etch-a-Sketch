@@ -1,0 +1,17 @@
+.myClass {
+	border: 3px solid black;
+	display:flex;
+	width:200px;
+	margin-top:1%;
+	margin-left:1%;
+	padding: 100px;
+}
+
+
+.gridRow {
+	border: 1px solid black;
+}
+
+.cell {
+	border: 1px solid black;
+}
