@@ -103,9 +103,18 @@ function resetGrid() {
 }
 
 function refreshGrid() {
-    let z = prompt('How big do you want the grid to be?');
-    resetGrid();
-    newGrid(z);
+    let z = prompt('Choose your grid size,i.e."10"');
+   
+    {
+	if (z >0 && z < 17) {
+		resetGrid();
+		newGrid(z);
+	} else {
+		alert('Invalid size. The size must been between 1 and 16.')
+
+	}
+    }
+   
 }
 
 document.addEventListener('DOMContentLoaded', function () {
